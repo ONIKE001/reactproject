@@ -1,0 +1,49 @@
+.background color {
+    color: rgb(223, 169, 120)
+}
+
+
+.ProjectCard {
+    display:flex;
+    justify-content:space-between;
+    /* overflow: hidden; */
+    flex-wrap: wrap;
+    
+}
+
+.project img {
+    height: 10rem;
+    width:20rem;
+    border-top-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+    display:inline-block;
+    flex-wrap: wrap;
+    margin: 0rem auto;
+}
+
+.project {
+    display:flex;
+    flex-direction: column;
+    margin:0.6rem 2rem;
+    border: 0.1rem solid;
+    border-top-left-radius: 0.7rem;
+    border-top-right-radius: 0.7rem;
+    border-bottom-left-radius: 0.7rem;
+    border-bottom-right-radius: 0.7rem;
+    overflow:hidden;
+    box-shadow:1rem;
+    background-color: rgb(245, 230, 210);
+    width: 20rem;
+    height: 25rem;
+}
+
+.project img {
+    height:auto !important ;
+    border: 0.5em;
+}
+
+.project span {
+    font-size:medium;
+    font: display 4px; 
+    font-weight: lighter;
+}
